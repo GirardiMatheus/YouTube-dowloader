@@ -1,7 +1,7 @@
 body {
-  background-color: #f9f9f9; /* Fundo claro */
-  color: #333; /* Texto escuro */
-  font-family: 'Arial', sans-serif; /* Fonte Arial */
+  background-color: #f9f9f9; 
+  color: #333; 
+  font-family: 'Arial', sans-serif; 
   margin: 0;
   padding: 0;
   display: flex;
@@ -14,41 +14,41 @@ body {
   text-align: center;
   padding: 40px;
   border-radius: 10px;
-  background-color: #e0e0e0; /* Cinza claro */
+  background-color: #e0e0e0; 
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   width: 90%;
-  max-width: 400px; /* Limita a largura do container */
+  max-width: 400px; 
 }
 
 h1 {
   font-size: 2em;
   margin-bottom: 20px;
-  color: #333; /* Texto escuro */
+  color: #333; 
 }
 
 input[type="text"] {
   padding: 10px;
-  border: 1px solid #ccc; /* Borda cinza claro */
+  border: 1px solid #ccc;
   border-radius: 5px;
-  width: 100%; /* Usar 100% da largura do container */
+  width: 100%; 
   margin-bottom: 15px;
   font-size: 1em;
-  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+  box-sizing: border-box; 
 }
 
 button {
   padding: 10px 20px;
-  background-color: #007bff; /* Azul escuro */
+  background-color: #007bff; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
-  color: #fff; /* Texto branco */
-  transition: background-color 0.3s; /* Animação de transição */
+  color: #fff; 
+  transition: background-color 0.3s; 
 }
 
 button:hover {
-  background-color: #0056b3; /* Azul mais claro no hover */
+  background-color: #0056b3;
 }
 
 .status {
@@ -57,9 +57,9 @@ button:hover {
 }
 
 .status.success {
-  color: #28a745; /* Verde suave para sucesso */
+  color: #28a745; 
 }
 
 .status.error {
-  color: #dc3545; /* Vermelho suave para erro */
+  color: #dc3545; 
 }
